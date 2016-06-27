@@ -11,23 +11,23 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
@@ -69,12 +69,12 @@ The above features were sub-selected and rearranged in the following way:
 
 3. Descriptive activity names were used to name the activities in the data set:
 
-1. WALKING
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
 
 4. The data set was labeled with appropriate descriptive variable names.
 
@@ -82,8 +82,8 @@ The above features were sub-selected and rearranged in the following way:
 
 6. A second, independent tidy data set with the average of each variable for each activity and each subject was produced, with the following features (the first two variables are factors, the others are all double-precision numerics):
 
- - Activity
- - Subject
+ Activity
+ Subject
  tBodyAcc-mean()-X
  tBodyAcc-mean()-Y
  tBodyAcc-mean()-Z
