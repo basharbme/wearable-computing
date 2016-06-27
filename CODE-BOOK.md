@@ -66,12 +66,12 @@ The above features were sub-selected and rearranged in the following way:
 1. The training and the test sets were merged to create one data set.
 2. Only the measurements on the mean and standard deviation for each measurement were extracted.
 3. Descriptive activity names were used to name the activities in the data set:
-- WALKING (1)
-- WALKING_UPSTAIRS (2)
-- WALKING_DOWNSTAIRS (3)
-- SITTING (4)
-- STANDING (5)
-- LAYING (6)
+i. WALKING (1)
+ii. WALKING_UPSTAIRS (2)
+iii. WALKING_DOWNSTAIRS (3)
+iv. SITTING (4)
+v. STANDING (5)
+vi. LAYING (6)
 4. The data set was labeled with appropriate descriptive variable names.
 5. The data set was grouped on two levels: first by Activity, and then by Subject.
 6. A second, independent tidy data set with the average of each variable for each activity and each subject was produced, with the following features (the first two variables are factors, the others are all double-precision numerics):
