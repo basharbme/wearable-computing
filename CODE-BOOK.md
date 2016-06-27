@@ -69,12 +69,12 @@ The above features were sub-selected and rearranged in the following way:
 
 3. Descriptive activity names were used to name the activities in the data set:
 
-- 1 WALKING
-- 2 WALKING_UPSTAIRS
-- 3 WALKING_DOWNSTAIRS
-- 4 SITTING
-- 5 STANDING
-- 6 LAYING
+- WALKING (1)
+- WALKING_UPSTAIRS (2)
+- WALKING_DOWNSTAIRS (3)
+- SITTING (4)
+- STANDING (5)
+- LAYING (6)
 
 4. The data set was labeled with appropriate descriptive variable names.
 
