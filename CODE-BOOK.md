@@ -1,5 +1,6 @@
-ORIGINAL FEATURE SELECTION 
-==========================
+# CODEBOOK
+
+## ORIGINAL FEATURE SELECTION 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -58,8 +59,7 @@ tBodyGyroJerkMean
 
 
 
-MODIFIED FEATURE SELECTION
-==========================
+## MODIFIED FEATURE SELECTION
 
 The above features were sub-selected and rearranged in the following way:
 
@@ -69,22 +69,21 @@ The above features were sub-selected and rearranged in the following way:
 
 3. Descriptive activity names were used to name the activities in the data set:
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
 4. The data set was labeled with appropriate descriptive variable names.
 
 5. The data set was grouped on two levels: first by Activity, and then by Subject.
 
-5. A second, independent tidy data set with the average of each variable for each activity and each subject was produced, with the following features:
+6. A second, independent tidy data set with the average of each variable for each activity and each subject was produced, with the following features (the first two variables are factors, the others are all double-precision numerics):
 
-
- Activity
- Subject
+ - Activity
+ - Subject
  tBodyAcc-mean()-X
  tBodyAcc-mean()-Y
  tBodyAcc-mean()-Z
