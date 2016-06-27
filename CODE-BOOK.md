@@ -75,11 +75,11 @@ vi. LAYING (6)
 4. The data set was labeled with appropriate descriptive variable names.
 5. The data set was grouped on two levels: first by Activity, and then by Subject.
 6. A second, independent tidy data set with the average of each variable for each activity and each subject was produced, with the following features (the first two variables are factors, the others are all double-precision numerics):
- - Activity
- - Subject
- - tBodyAcc-mean()-X
- - tBodyAcc-mean()-Y
- - tBodyAcc-mean()-Z
+ - Activity (factor)
+ - Subject (factor)
+ - tBodyAcc-mean()-X [numeric]
+ - tBodyAcc-mean()-Y [numeric]
+ - tBodyAcc-mean()-Z [numeric]
  - tBodyAcc-std()-X
  - tBodyAcc-std()-Y
  - tBodyAcc-std()-Z
